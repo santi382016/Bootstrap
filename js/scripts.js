@@ -11,4 +11,13 @@
                 $("#carouselButton").children("i").addClass("fa-pause"); 
             }
         });
+
+        //click funtion for Reserve campsite button
+        $("#reserveButton").click(function() {
+            $("#reserveModal").modal("show");
+        })
+        // click function for login button
+        $("#loginButton").click(function() {
+            $("#loginModal").modal("show");
+        })
     });
